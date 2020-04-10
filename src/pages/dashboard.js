@@ -21,7 +21,7 @@ const Dashboard = ({ location }) => {
       <Router>
         <PrivateRoute path="/dashboard/base" component={RouteBase} />
         <PrivateRoute path="/dashboard/secret" component={RouteSecret} />
-        <RouteLogin path="/dashboard/login" showModal={showModal} />
+        <RouteLogin path="/dashboard/login" />
       </Router>
     </Layout>
   );
